@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diesel7 | Code</title>
+    <link rel="stylesheet" href="css\styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Diesel7</div>
+            <ul class="nav-links">
+                <li><a href="#about">Обо мне</a></li>
+                <li><a href="#skills">Навыки</a></li>
+                <li><a href="#projects">Проекты</a></li>
+                <li><a href="#contact">Контакты</a></li>
+            </ul>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Привет, я Олег</h1>
+            <h2>Full-stack разработчик</h2>
+            <a href="#projects" class="cta-button">Мои работы</a>
+        </div>
+        <div class="scroll-down">
+            <span></span>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2>Обо мне</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Я профессиональный разработчик с 2-летним опытом создания веб-страниц. Специализируюсь на JavaScript-экосистеме.</p>
+                    <p>Моя страсть - создавать чистый, эффективный код и решать сложные задачи. Я постоянно изучаю новые технологии и совершенствую свои навыки.</p>
+                </div>
+                <div class="about-image">
+                    <img src="https://cdn.discordapp.com/attachments/1143937277857366016/1365719343299563722/IMG_3983.jpg?ex=680e54c1&is=680d0341&hm=45d21f8f75f17f57bded6935a7dd2afd10b8912650e8ad9b38b4ac93e93bfd24&" alt="Фото Гнилуши Олега">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2>Мои навыки</h2>
+            <div class="skills-grid">
+                <div class="skill-item">
+                    <i class="fab fa-js"></i>
+                    <h3>JavaScript</h3>
+                    <p>ES6+, React, Node.js, Express</p>
+                </div>
+                <div class="skill-item">
+                    <i class="fab fa-python"></i>
+                    <h3>Python</h3>
+                    <p>Django, Flask, Data Science</p>
+                </div>
+                <div class="skill-item">
+                    <i class="fas fa-database"></i>
+                    <h3>Базы данных</h3>
+                    <p>PostgreSQL, MongoDB, Firebase</p>
+                </div>
+                <div class="skill-item">
+                    <i class="fas fa-mobile-alt"></i>
+                    <h3>Мобильная разработка</h3>
+                    <p>React Native, Flutter</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2>Мои проекты</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <img src="https://cdn.discordapp.com/attachments/1143937277857366016/1365720434884083822/image.png?ex=680e55c5&is=680d0445&hm=88dfe735f427028ef0224355adf22af2ec8bb33f8d766035bc14e1ad6d640993&" alt="Проект 1">
+                    <div class="project-info">
+                        <h3>Интернет-магазин</h3>
+                        <p>Полнофункциональный магазин на Javascript</p>
+                        <a href="#" class="project-link">Подробнее</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img src="https://cdn.discordapp.com/attachments/1143937277857366016/1365720932454371408/image.png?ex=680e563c&is=680d04bc&hm=b05bc7e5b7560c4c90bad36dc66ebf82faba6dac61896c32385b6dbe8f18d6b1&" alt="Проект 2">
+                    <div class="project-info">
+                        <h3>Интернет-магазин</h3>
+                        <p>Полнофункциональный магазин аккаунтов на Javascript</p>
+                        <a href="#" class="project-link">Подробнее</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img src="https://cdn.discordapp.com/attachments/1143937277857366016/1365721159798227095/image.png?ex=680e5672&is=680d04f2&hm=7f6565561f6f542af10e1a3d1e9cb014175824ceb8a2adbbe96d677cda233496&" alt="Проект 3">
+                    <div class="project-info">
+                        <h3>Лэндинг</h3>
+                        <p>Полнофункциональный лэндинг страница на Javascript</p>
+                        <a href="#" class="project-link">Подробнее</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Свяжитесь со мной</h2>
+            <form class="contact-form">
+                <input type="text" placeholder="Ваше имя" required>
+                <input type="email" placeholder="Ваш email" required>
+                <textarea placeholder="Ваше сообщение" required></textarea>
+                <button type="submit">Отправить</button>
+            </form>
+            <div class="social-links">
+                <a href="https://github.com/diesel7user"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/oleh-hnylusha-627a62362/"><i class="fab fa-linkedin"></i></a>
+                <a href="https://t.me/diesel7user"><i class="fab fa-telegram"></i></a>
+                <a href="mailto:diesel7user@gmail.com"><i class="fas fa-envelope"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Гнилуша Олег. Все права защищены.</p>
+    </footer>
+
+    <script src="scripts\script.js"></script>
+</body>
+</html>
